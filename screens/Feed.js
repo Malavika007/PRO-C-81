@@ -1,0 +1,26 @@
+
+import React,{Component} from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import { Component } from 'react';
+
+export default class Feed extends React.Component() {
+    render(){
+
+        return (
+            <View style={styles.container}>
+              <Text>Feed</Text>
+             
+            </View>
+          );
+    }
+
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
